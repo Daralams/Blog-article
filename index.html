@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+   
+   <!--Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <!--icons-->
+  <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Navbar-->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="text-2xl text-blue-500 block py-6" style="font-family: 'Kanit', sans-serif;">ManganWeb</a>
+        </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <a class="cursor-pointer"><i class="fa-solid fa-bars"></i></a>
+          </button>
+          
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home" class="py-2 mx-8 flex group-hover:text-blue-500">Home</a>
+              </li>
+              <li class="group">
+                <a href="#hakCipta" class="py-2 mx-8 flex group-hover:text-blue-500">Hak cipta</a>
+              </li>
+              <li class="group">
+                <a href="#merk" class="py-2 mx-8 flex group-hover:text-blue-500">Merk</a>
+              </li>
+              <li class="group">
+                <a href="#manfaat" class="py-2 mx-8 flex group-hover:text-blue-500">Manfaat</a>
+              </li>
+              <li class="group">
+                <a href="#jenis" class="py-2 mx-8 flex group-hover:text-blue-500">Jenis</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Home section -->
+  <section class="mt-10 p-10" id="home">
+    <div class="md:flex justify-between">
+      <div class="py-5 max-w-md">
+        <h1 class="text-xl" style="font-family: 'Rubik', sans-serif;">Hak Kekayaan <span class="text-blue-500">Intelektual</span></h1>
+        <p class="py-2" style="font-family: 'Poppins', sans-serif;"><span class="text-blue-500">Hak Kekayaan Intelektual</span> merupakan hak yang diberikan kepada hasil olah pikir manusia dalam menciptakan produk, jasa, atau proses yang berguna untuk masyarakat. Dalam HAKI, objek yang dilindungi adalah karya-karya yang dihasilkan oleh kemampuan intelektual manusia.</p>
+        <div class="mt-4">
+          <a class="px-6 py-2 bg-blue-500 rounded-3xl text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" style="font-family: 'Poppins', sans-serif;" href="#hakCipta">Learn more</a>
+        </div>
+      </div>
+      
+      <div class="py-4">
+        <img src="assets/landingPage.png" alt="..">
+      </div>
+    </div>
+  </section>
+  
+  <!--Hak cipta section-->
+  <section class="p-10 bg-blue-900" id="hakCipta">
+    <div class="flex justify-center">
+      <h1 class="text-xl text-white" style="font-family: 'Rubik', sans-serif;">Apa saja contoh Hak Cipta ?</h1>
+    </div>
+    <div class="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+      <div class="p-5 bg-blue-800">
+        <p class="text-lg text-white text-center font-bold" style="font-family: 'Poppins', sans-serif;">Program Komputer</p>
+        <p class="my-3 text-sm text-slate-100 text-center" style="font-family: 'Poppins', sans-serif;">Program komputer adalah seperangkat instruksi yang diekspresikan dalam bentuk bahasa, kode atau dalam bentuk apapun yang dapat bekerja untuk melakukan fungsi tertentu.</p>
+      </div>
+      <div class="p-5 bg-blue-800">
+        <p class="text-lg text-white text-center font-bold" style="font-family: 'Poppins', sans-serif;">Fotografi</p>
+        <p class="my-3 text-sm text-slate-100 text-center" style="font-family: 'Poppins', sans-serif;">Fotografi adalah seni dan praktik mengambil gambar dengan menggunakan kamera yang melibatkan pengaturan cahaya dan komposisi untuk menangkap momen atau menciptakan karya seni visual.</p>
+      </div>
+      <div class="p-5 bg-blue-800">
+        <p class="text-lg text-white text-center font-bold" style="font-family: 'Poppins', sans-serif;">Film</p>
+        <p class="my-3 text-sm text-slate-100 text-center" style="font-family: 'Poppins', sans-serif;">Film adalah suatu bentuk seni yang melibatkan rekaman visual dan audio untuk menyampaikan cerita, menghibur, atau menyampaikan pesan. Dalam film, urutan gambar bergerak diputar dengan cepat, menciptakan ilusi gerakan.</p>
+      </div>
+      <div class="p-5 bg-blue-800">
+        <p class="text-lg text-white text-center font-bold" style="font-family: 'Poppins', sans-serif;">Lagu</p>
+        <p class="my-3 text-sm text-slate-100 text-center" style="font-family: 'Poppins', sans-serif;">Lagu adalah karya seni yang terdiri dari suara dan melodi yang diatur secara ritmis. Biasanya, lagu menyampaikan ekspresi emosional, cerita, atau pesan melalui penggunaan vokal dan instrumen musik.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!--Merk section-->
+  <section class="p-10" id="merk">
+    <div class="md:flex justify-between gap-4">
+      <div class="w-full">
+        <img src="assets/merk.png" alt="...">
+      </div>
+      <div class="py-5 max-w-lg">
+        <h1 class="text-xl font-display" style="font-family: 'Rubik', sans-serif;">Perlindungan atas <span class="text-blue-500">merk</span>  dagang</h1>
+        <p class="py-2" style="font-family: 'Poppins', sans-serif;"><span class="text-blue-500 font-bold">Pengertian Merk dagang</span> <br>
+        Merupakan suatu nama, istilah, simbol, tanda, desain, atau kombinasi dari semuanya yang digunakan untuk mengidentifikasikan produk dan membedakan produk perusahaan dengan produk pesaing.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!--Manfaat merk section-->
+  <section class="p-10 bg-blue-900" id="manfaat">
+    <div class="md:flex justify-between">
+      <div class="px-2 max-w-md">
+        <h1 class="text-3xl text-white" style="font-family: 'Rubik', sans-serif;">Manfaat merk dagang</h1>
+        <p class="py-2 text-md text-slate-100" style="font-family: 'Poppins', sans-serif;">Menurut <span class="text-blue-500">Keller </span>dalam tjiptono (2005), merk bermanfaat bagi produsen, sebagai:</p>
+      </div>
+      
+      <div class="grid grid-cols-1 gap-2">
+        <div class="p-2">
+          <p class="text-sm text-sky-200 font-bold" style="font-family: 'Poppins', sans-serif;">Sarana identifikasi</p>
+          <p class="my-3 text-sm text-slate-100" style="font-family: 'Poppins', sans-serif;">Untuk memudahkan proses penanganan atau pelacakan produk bagi perusahaan, terutama dalam pengorganisasian dan pencatatan akutansi.</p>
+        </div>
+        <div class="p-2">
+          <p class="text-sm text-sky-200 font-bold" style="font-family: 'Poppins', sans-serif;">Bentuk proteksi terhadap fitur</p>
+          <p class="my-3 text-sm text-slate-100" style="font-family: 'Poppins', sans-serif;">Signal tingkat kualitas bagi para pelanggan yang puas sehingga mereka dengan mudah membeli dilain waktu.</p>
+        </div>
+        <div class="p-2">
+          <p class="text-sm text-sky-200 font-bold" style="font-family: 'Poppins', sans-serif;">Sarana asosiasi</p>
+          <p class="my-3 text-sm text-slate-100" style="font-family: 'Poppins', sans-serif;">Sarana asosiasi dan makna unik yang membedakan produk dari para pesaing</p>
+        </div>
+        <div class="p-2">
+          <p class="text-sm text-sky-200 font-bold" style="font-family: 'Poppins', sans-serif;">Sumber keunggulan kompetitif</p>
+          <p class="my-3 text-sm text-slate-100" style="font-family: 'Poppins', sans-serif;">Terutama melalui perlindungan hukum, loyalitas pelanggan, dan citra unik yang terbentuk dalam benak konsumen</p>
+        </div>
+        <div class="p-2">
+          <p class="text-sm text-sky-200 font-bold" style="font-family: 'Poppins', sans-serif;">Sumber finansial returns</p>
+          <p class="my-3 text-sm text-slate-100" style="font-family: 'Poppins', sans-serif;">Terutama menyangkut pendapatan masa yang akan datang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Jenis merk dagang section-->
+  <section class="p-10" id="jenis">
+    <h1 class="text-xl text-center" style="font-family: 'Rubik', sans-serif;">Jenis jenis <span class="text-blue-500">merk</span></h1>
+    <div class="my-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-2">
+        <div class="p-4 border border-blue-500 rounded-xl hover:shadow-md">
+          <p class="text-center text-sm font-bold" style="font-family: 'Poppins', sans-serif;">Merk produk</p>
+          <p class="pt-3 text-center text-sm" style="font-family: 'Poppins', sans-serif;">Merk produk yang sukses adalah merk produk yang mampu mendorong konsumen untuk memilih produknya diatas pesaingnya.</p>
+        </div>
+        <div class="p-4 border border-blue-500 rounded-xl hover:shadow-md">
+          <p class="text-center text-sm font-bold" style="font-family: 'Poppins', sans-serif;">Merk pribadi</p>
+          <p class="pt-3 text-center text-sm" style="font-family: 'Poppins', sans-serif;">Merk pribadi merupakan alat pemasaran yang paling poluler dikalangan public figure, sehingga mereka memiliki pandangan tersendiri dimata masyarakat.</p>
+        </div>
+        <div class="p-4 border border-blue-500 rounded-xl hover:shadow-md">
+          <p class="text-center text-sm font-bold" style="font-family: 'Poppins', sans-serif;">Merk perusahaan</p>
+          <p class="pt-3 text-center text-sm" style="font-family: 'Poppins', sans-serif;">Merk perusahaan penting untuk mengembangkan reputasi perusahaan dipasar meliputi berbagai aspek perusahaan tersebut.</p>
+        </div>
+        <div class="p-4 border border-blue-500 rounded-xl hover:shadow-md">
+          <p class="text-center text-sm font-bold" style="font-family: 'Poppins', sans-serif;">Merk regional</p>
+          <p class="pt-3 text-center text-sm" style="font-family: 'Poppins', sans-serif;">Merk regional bertujuan untuk mmunculkan gambaran dari produk atau jasa ketika nama lokasi tersebut disebutkan seseorang.</p>
+        </div>
+        <div class="p-4 border border-blue-500 rounded-xl hover:shadow-md">
+          <p class="text-center text-sm font-bold" style="font-family: 'Poppins', sans-serif;">Merk budaya</p>
+          <p class="pt-3 text-center text-sm" style="font-family: 'Poppins', sans-serif;">digunakan untuk mengembangkan reputasi mengenai lingkungan dan orang² dari tempat tertentu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-zinc-900 p-12">
+    <p class="text-center text-white" style="font-family: 'Poppins', sans-serif;">Created by <a href="https://github.com/Daralams" class="text-blue-400">Mangandaralam Sakti</a> ©2023</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
